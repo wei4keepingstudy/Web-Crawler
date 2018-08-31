@@ -1,0 +1,39 @@
+{
+  "brand": 车辆品牌,
+  "serial": [[ //车辆系列数组
+    {
+      "model": [[
+	{
+          "model": 车型,
+          "maintainPlan": {
+            "first": {
+              "maintainName": "首保",
+              "mileageFlag": 里程,
+              "monthPeriod": 周期
+            },
+            "second": {
+              "maintainName": "二保",
+              "mileageFlag": 第二次里程,
+              "monthPeriod": 周期
+            },
+            "period": {
+              "maintainName": "常规保养",
+              "mileagePeriod": 10000,
+              "monthPeriod": 12
+            }
+          },
+          "maintainData": [
+	["距离1"，"项目名称1","价钱1"，"项目名称2"."价钱2"。。。]，
+	["距离2"，"项目名称1","价钱1"，"项目名称2"."价钱2"。。。]， 
+	["距离3"，"项目名称1","价钱1"，"项目名称2"."价钱2"。。。]， 
+	......            
+	]
+              }
+            ]
+          ]
+	"serialName": 车系
+        }
+	
+      ]
+  ]
+}
